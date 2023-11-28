@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import LeftArrow from "@/public/Assets/leftarrow.svg";
 import RightArrow from "@/public/Assets/rightarrow.svg";
-import Avav from "@/public/Assets/Avav.svg";
+import Avav from "@/public/Assets/avav.svg";
 import LikeR from "@/public/Assets/liked.svg";
 import LikeW from "@/public/Assets/like.svg";
 import ShareBtn from "@/public/Assets/share.svg";
