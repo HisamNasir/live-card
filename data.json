@@ -1,0 +1,46 @@
+[
+  {
+  "imageUrl": "/Assets/bg1.png",
+  "label": "SHELTON STREET COVENT GARDEN LONDON WC2H UNITED KINGDOM",
+  "content": "#ZM7861234567",
+  "pricetop": "£3,000,000 GBP",
+  "pricebot": "£46.00 GBP",
+  "ticket": "BUY ENTRY NOW",
+  "ticketcode": "#ZM7861234567",
+  "brandlogoUrl": "/Assets/savilla.svg",
+  "progress": 25
+  },
+  {
+  "imageUrl": "/Assets/bg2.png",
+  "label": "SHELTON STREET COVENT GARDEN LONDON WC2H UNITED KINGDOM",
+  "content": "#ZM7861234567",
+  "pricetop": "£6,000,000 GBP",
+  "pricebot": "£25.00 GBP",
+  "ticket": "BUY ENTRY NOW",
+  "ticketcode": "#ZM7861234567",
+  "brandlogoUrl": "/Assets/Sotheby.svg",
+  "progress": 50  
+  },
+  {
+  "imageUrl": "/Assets/bg3.png",
+  "label": "SHELTON STREET COVENT GARDEN LONDON WC2H UNITED KINGDOM",
+  "content": "#ZM7861234567",
+  "pricetop": "£4,600,000 GBP",
+  "pricebot": "£46.00 GBP",
+  "ticket": "BUY ENTRY NOW",
+  "ticketcode": "#ZM7861234567",
+  "brandlogoUrl": "/Assets/savilla.svg",
+  "progress": 75
+  },
+  {
+  "imageUrl": "/Assets/bg4.png",
+  "label": "SHELTON STREET COVENT GARDEN LONDON WC2H UNITED KINGDOM",
+  "content": "#ZM7861234567",
+  "pricetop": "£8,000,000 GBP",
+  "pricebot": "£25.00 GBP",
+  "ticket": "BUY ENTRY NOW",
+  "ticketcode": "#ZM7861234567",
+  "brandlogoUrl": "/Assets/Sotheby.svg",
+  "progress": 10
+  }
+]
