@@ -13,12 +13,12 @@ const Carousel = ({ data }) => {
   const [activeSlide, setActiveSlide] = useState(0);
   const DeadLine = new Date(Date.parse(new Date()) + 60 * 24 * 60 * 60 * 1000);
   const [likedCards, setLikedCards] = useState([]);
-  
+
   useEffect(() => {
-    // Initialize likedCards state from local storage
-    const storedLikedCards = JSON.parse(localStorage.getItem('likedCards')) || [];
+    const storedLikedCards =
+      JSON.parse(localStorage.getItem("likedCards")) || [];
     setLikedCards(storedLikedCards);
-  }, []); // Empty dependency array means this effect runs once after the initial render
+  }, []);
 
   const NextArrow = () => (
     <button
@@ -99,7 +99,7 @@ const Carousel = ({ data }) => {
               <CountdownTimer endDate={DeadLine} />
               <div className=" w-full flex gap-2 justify-end">
                 <button className="p-4" onClick={handleShareClick}>
-                <Image src={ShareBtn} alt="" />
+                  <Image src={ShareBtn} alt="" />
                 </button>
                 <button className="py-4 pr-8" onClick={handleLikeClick}>
                   {likedCards.includes(activeSlide) ? (
@@ -119,14 +119,14 @@ const Carousel = ({ data }) => {
               </div>
             </div>
             <div className="h-[547px] rounded-3xl">
-            <img
+              <img
                 src={card.imageUrl}
                 className="object-cover w-full h-[547px] rounded-3xl  "
                 alt="Card Image"
               />
               <div className="absolute top-0 left-0 w-full h-full gradient-overlay-top "></div>
               <div className="absolute top-0 left-0 w-full h-full gradient-overlay-bottom"></div>
-              </div>
+            </div>
             <div className="absolute bottom-0 inset-0 flex flex-col justify-end h-[547px] space-y-4 text-white px-5 py-2">
               <div className="mb-7">
                 <div className="flex justify-center mb-1 items-end h-full">
@@ -137,7 +137,7 @@ const Carousel = ({ data }) => {
                 </p>
               </div>
               <div className="absolute z-10 right-[118px] bottom-4">
-              <ProgressBar progress={card.progress} />
+                <ProgressBar progress={card.progress} />
               </div>
 
               <div className="relative">
